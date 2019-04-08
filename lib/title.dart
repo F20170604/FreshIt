@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:freshit_flutter/AppTheme.dart';
+
 class SignInTitle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -7,9 +9,9 @@ class SignInTitle extends StatelessWidget {
         child: new Text("FreshIt",
           style: TextStyle(
               fontSize: 80.0,
-              fontFamily: 'Flama',
+              fontFamily: AppTheme.primaryFont,
               letterSpacing: 0.25,
-              color: Color.fromRGBO(23, 69, 145, 1.0),
+              color: AppTheme.primaryColor,
               shadows: <Shadow>[
                 Shadow(
                     offset: Offset(4.0, 4.0),

@@ -14,7 +14,7 @@ class SignInFooter extends StatelessWidget {
           ),
           new FlatButton(
             materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
-            onPressed: ()=>null,
+            onPressed: () => null,
             child: new Text(
               "Create an account",
               style: new TextStyle(
@@ -27,5 +27,4 @@ class SignInFooter extends StatelessWidget {
       margin: EdgeInsets.fromLTRB(0, 70, 0, 0),
     );
   }
-
 }

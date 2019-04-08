@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:freshit_flutter/AppTheme.dart';
 
 class NotificationsPage extends StatelessWidget {
   @override
@@ -35,14 +36,14 @@ class NotificationsPage extends StatelessWidget {
                               style: TextStyle(
                                 color: Colors.black,
                                 fontWeight: FontWeight.bold,
-                                fontFamily: 'Flama',
+                                fontFamily: AppTheme.primaryFont,
                                 fontSize: 16,
                               ),
                             children: <TextSpan>[
                               TextSpan(text: ' kept in', style: TextStyle(fontWeight: FontWeight.normal, fontSize: 16)),
-                              TextSpan(text: ' Referigerator', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16, fontFamily: 'Flama', color: Colors.blue)),
+                              TextSpan(text: ' Referigerator', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16, fontFamily: AppTheme.primaryFont, color: Colors.blue)),
                               TextSpan(text: ' will', style: TextStyle(fontWeight: FontWeight.normal, fontSize: 16)),
-                              TextSpan(text: ' Expire in 2 days', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16, fontFamily: 'Flama', color: Colors.red))
+                              TextSpan(text: ' Expire in 2 days', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16, fontFamily: AppTheme.primaryFont, color: Colors.red))
                             ]
                           ),
                       ),

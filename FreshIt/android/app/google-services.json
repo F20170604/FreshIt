@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "61763846148",
+    "firebase_url": "https://freshit.firebaseio.com",
+    "project_id": "freshit",
+    "storage_bucket": "freshit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61763846148:android:e1ce3c69098bfe0a",
+        "android_client_info": {
+          "package_name": "com.freshit.freshit_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbHlp55lVoazbWy3F-xEUG3S70TdSueL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61763846148-5hsieumk584recn6f985m2l22jtgavl3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
